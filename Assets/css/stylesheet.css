@@ -1,0 +1,104 @@
+/* Config general */
+
+/* Font for titles*/
+@font-face{
+    font-family : "blacksword";
+
+    src: url("../fonts/Blacksword.otf") format('opentype');
+  
+}
+
+/* Font for textes*/
+@font-face{
+    font-family : "cardoRegular";
+
+    src: url("../fonts/cardo/cardo-regular.woff") format('woff');
+    
+}
+
+@font-face {
+    font-family: "cardoItalic";
+    src: url("../fonts/cardo/cardo-italic.woff") format('woff');
+    /* font-style: italic; */
+}
+
+@font-face {
+    font-family: "cardoBold";
+    src: url("../fonts/cardo/cardo-bold.woff") format('woff'); 
+    /* font-weight: bold; */
+}
+
+/* Main HTML */
+
+body {
+    background-color: #f7f1e3;
+    
+    
+}
+
+body nav {
+    background-image: url("../images/bunting.png");
+    background-repeat: repeat-x;
+    background-size: 30%;
+    height: 30px;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 1.4em;
+    line-height: 50px;
+    text-indent: 25px;
+    /* font-family for titles */
+    font-family: "blacksword";  
+    /* Limiter la taille du contenu à 800px maximum */
+    /* height: 800px; */
+    max-width: 800px;
+}
+
+p {
+    /* font-family for textes */
+    font-family: "cardoRegular";  
+    /* font-family: "cardoItalic"; */
+    /* font-family: "cardoBold"; */
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2.5em;
+    word-spacing: 25px;
+}
+
+h3 {
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+
+span {
+    color: lightpink;
+}
+
+.center {
+    text-align: center;
+}
+
+#right {
+    text-align: right;
+}
+
+footer {
+    
+    font-size: .6em;
+}
+
+footer img {
+    width: 80px;
+}
+
+
+
+
+
